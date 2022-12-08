@@ -1,24 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
-/* Definindo as principais configurações da página e as cores*/
+/* resetando as configurações da página */
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; 
+}
+
+/* configurações padrão para os elementos */
+:root {
     --nav-bg-color: #f3f3f3;
     --body-bg-color: #391e5d;
     --dark-font-color: #0a0016;
     --light-font-color: #dfdfdf;
     --alt-ligh-color: #cdd5eb;
     --button-color: #71cedab2;
-
 }
+
 
 a {
     text-decoration: none;
     color: inherit;
 }
+
 
 nav {
     display: flex;
@@ -30,8 +35,6 @@ nav {
     height: 6vh;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     font-family: 'Roboto', sans-serif;
-
-
 }
 
 
@@ -41,7 +44,6 @@ nav {
 }
 
 
-
 ul {
     display: flex;
     list-style: none;
@@ -49,6 +51,7 @@ ul {
     align-items: center;
     font-size: 1.2rem;
 }
+
 
 .button {
     display: flex;
@@ -60,7 +63,6 @@ ul {
     font-family: 'Roboto', sans-serif;
     border-radius: 15px;
     border: 2px solid white;
-
 }
 
 
@@ -72,8 +74,8 @@ ul {
     height: 65vh;
     background-color: var(--body-bg-color);
     padding: 0px;
-
 }
+
 
 .banner img {
     max-width: 500px;
@@ -81,6 +83,7 @@ ul {
     width: auto;
     height: auto;
 }
+
 
 .banner2 {
 
@@ -99,4 +102,41 @@ footer {
     justify-content: center;
     background-color: --nav-bg-color;
     height: 20vh;
+}
+
+
+@media (max-width:600px) {
+
+.banner, .banner2 {
+    display:block;
+    align-items: center;
+    width: fit-content;
+    height: auto;
+    font-size:2.4vh;
+
+}
+
+.banner img {
+    width: 70%;
+}
+
+
+nav {
+    display:flex;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+nav ul {    
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    column-count: auto;
+    font-size:2.5vh;
+    gap:5px;
+
+}
+
 }
