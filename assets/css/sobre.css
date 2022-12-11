@@ -1,5 +1,5 @@
 /* configurações padrão para os elementos */
-:root {
+/* :root {
     --nav-bg-color: #f3f3f3;
     --footer-bg-color: #343236;
     --body-bg-color: #391e5d;
@@ -10,7 +10,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-/* BARRA DE NAVEGAÇÃO */
+/* BARRA DE NAVEGAÇÃO 
 #navbar {
     border: 1px solid;
     height: 10rem;
@@ -25,7 +25,4 @@
     width: auto;
     display: flex;
     justify-content: start;
-
-
-
-}
+} */

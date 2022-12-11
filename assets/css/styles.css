@@ -8,6 +8,7 @@
     box-sizing: border-box;
 }
 
+
 /* configurações padrão para os elementos */
 :root {
     --nav-bg-color: #f3f3f3;
@@ -15,23 +16,30 @@
     --body-bg-color: #391e5d;
     --dark-font-color: #0a0016;
     --light-font-color: #dfdfdf;
-    --alt-ligh-color: #cdd5eb;
+    --alt-light-color: #cdd5eb;
     --button-color: #71cedab2;
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    background-color: var(--body-bg-color);
+}
 
 a {
     text-decoration: none;
     color: inherit;
 }
 
-nav {
+a:hover{
+color:var(--button-color);
+}
+
+#navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 2rem;
-    background-color: var(--bg-color);
+    background-color: var(--nav-bg-color);
     color: var(----font-color);
     height: 4em;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
@@ -39,15 +47,19 @@ nav {
 }
 
 nav img {
-    width: 3em;
+    width: 5em;
     margin-left: 5px;
 }
 
-.logo {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 2rem;
+.navbar-toggler {
+    color: var(--body-bg-color);
 }
 
+#navbar-items {
+    background-color: #f3f3f3c7;
+    color: var(--dark-font-color);
+    font-weight: bold;
+}
 
 nav ul {
     display: flex;
@@ -70,15 +82,17 @@ nav ul {
     padding: 6px;
     font-size: 1.2rem;
     border-radius: 15px;
-    border: 1px solid var(--alt-ligh-color);
+    border: 1px solid var(--alt-light-color);
 }
 
+#button:hover{
+    color:var(--nav-bg-color);
+}
 .banner {
-
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    height: 65vh;
+    height: 70vh;
     background-color: var(--body-bg-color);
     padding: 0px;
 }
@@ -104,6 +118,8 @@ nav ul {
 
 .footer {
     display: flex;
+    position: absolute;
+    width: 100%;
     align-items: center;
     justify-content: center;
     gap: 3em;
@@ -116,7 +132,7 @@ nav ul {
 
 
 .footer ul {
-    display:inline-block;
+    display: inline-block;
     padding-top: 1em;
     columns: 2;
     list-style: none;
@@ -127,16 +143,18 @@ nav ul {
 
 #termos {
     display: inline-block;
-    columns:1;
+    columns: 1;
 }
 
 .input {
-    display:flex;
+    display: flex;
+    position: relative;
+    width: 100%;
     justify-content: center;
     gap: 1em;
     align-items: center;
-    background-color:#57535b;
-    padding: 0.9em;    
+    background-color: #57535b;
+    padding: 0.9em;
     font-size: 1.5em;
     color: var(--light-font-color);
 }
@@ -145,23 +163,33 @@ nav ul {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    background-color: var(--alt-ligh-color);
+    background-color: var(--alt-light-color);
     padding: 6px;
     font-size: 1.2rem;
     border-radius: 15px;
-    border: 1px solid var(--alt-ligh-color);
+    border: 1px solid var(--alt-light-color);
+}
+
+#icones {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2em;
 }
 
 
-@media (max-width:600px) {
+/* MEDIA QUERY */
+
+@media (max-width:700px) {
 
     .banner,
     .banner2 {
         display: block;
         align-items: center;
         width: fit-content;
-        height: auto;
-        font-size: 1em;
+        height: fit-content;
+        font-size: 1.05em;
 
     }
 
@@ -171,23 +199,48 @@ nav ul {
         margin: auto;
     }
 
-
-    nav {
-        display: flex;
-        height: auto;
-        flex-direction: column;
-
+    .footer {
+        display: block;
+        position: absolute;
+        width:100%;
+        align-items: center;
+        font-size: 1.1em;
     }
 
 
-    nav ul {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
+    .input {
+        display: block;
         text-align: center;
-        border-radius: 50px;
         font-size: 1em;
-        gap: 5px;
     }
 
+    #info {
+        display:block;
+        padding: 5px;
+        font-size: 1.2em;
+    }
+    
+    #email,
+    #button {
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        font-size: 1em;
+    }
+
+    #termos {
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+    }
+
+    #icones {
+        display: flex;
+        justify-content: center;
+        gap: 1em;
+    }
+
+    nav img {
+        width: 4em;
+    }
 }
