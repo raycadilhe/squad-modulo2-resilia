@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="assets/img/icon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/img/icon.ico" type="image/x-icon">
     <!-- Google Fonts - LATO -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,73 +15,145 @@
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <!-- Bootstrap - Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
-    <!-- CSS da pagina SOBRE -->
-    <link rel="stylesheet" href="assets/css/sobre.css">
+    <!-- CSS da pagina LOGIN -->
+    <link rel="stylesheet" href="./assets/css/logincss.css">
     <!-- Bootstrap - JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
 
-    <title>The Frontenders - Sobre Nós</title>
+    <title>Login</title>
 </head>
 
-<body>
-    <!-- NAVBAR -->
-    <header>
-        <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
-            <div class="container py-3">
-                <a class="navbar-brand" href="http://127.0.0.1:5500/index.html">
-                    <img src="assets/img/fe.png" alt="The Frontenders" />
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items"
-                    aria-controls="navbar-items" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="bi bi-list"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbar-items">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="sobre.html">Produto</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="cadastro.html">Planos</a>
-                        </li>
+<body style="background-color: brown;">
+    <section class="container forms">
+        <div class="form login">
+            <div class="form-content">
+                <header> Login </header>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="contato.html">Contato</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="login.html" id="button" class="button"></a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="login.html" id="button" class="button"></a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="login.html" id="button" class="button"></a>
-                        </li>
-                        <div class="container-fluid">
-                            <form class="d-flex" role="search">
-                                <input class="form-control me-2" type="search" placeholder="digite aqui"
-                                    aria-label="Search">
-                                <button class="btn btn-outline-success" type="submit">pesquisar</button>
-                            </form>
+                <form action="#">
+                    <div class="field input-field">
+                        <input type="email" placeholder="E-mail" class="input">
+                    </div>
 
-                        </div>
-                    </ul>
-                </div>
+                    <div class="field input-field">
+                        <input type="password" placeholder="Senha" class="password">
+                        <i class='bx bx-hide eye-img'><img class='eyeImg' src="./assets/img/olho.svg"></i>
+                    </div>
+
+                    <div class="form-link">
+                        <a href="#" class="forgot-pass">Esqueci a senha</a>
+                    </div>
+
+
+                    <div class="field button-field">
+                        <button>Login</button>
+                    </div>
+
+                    
+                </form>    
+                <div class="form-link">
+                    <Span>Não possui uma conta? <a href="#" class="link signup-link">Criar conta</a></Span>
+                </div>     
             </div>
-        </nav>
-    </header>
-    <main>
-        <section>
 
-        </section>
-    </main>
-    <footer>
+            <div class="line"></div>
 
-    </footer>
+            <div class="media-options">
+                <a href="https://pt-br.facebook.com/" class="field facebook">
+                    <i class='bx bxl-facebook-circle facebook-icon'><img class='facebook-img' src='./assets/img/facebookwhite.png'></i>
+                    <span>Logue pelo Facebbook</span>
+                </a>
+            </div>
+
+            <div class="media-options">
+                <a href="https://accounts.google.com/ServiceLogin/identifier?service=mail&passive=1209600&osid=1&continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F%3Ftab%3Drm%26ogbl&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F%3Ftab%3Drm%26ogbl&emr=1&ifkv=AeAAQh7B-Q8DtnTxW0wgZO1TQKSwb5qyFGNBp2xHeYl-cvCQUtboubVp9hl7b2JGnWg_GAaR_x8s4A&flowName=GlifWebSignIn&flowEntry=ServiceLogin" class="field google">
+                    <img src="./assets/img/google-logo-24 (1).png" alt="" class="google-img">
+                    <span>Logue pelo Google</span>
+                </a>
+            </div>
+        </div>
+
+        <!--pt2-->
+
+        <div class="form signup">
+            <div class="form-content">
+                <header>Cadastre-se</header>
+
+                <form action="#">
+                    <div class="field input-field">
+                        <input type="email" placeholder="E-mail" class="input">
+                    </div>
+
+                    <div class="field input-field">
+                        <input type="password" placeholder="Senha" class="password">
+                
+                    </div>
+                    <div class="field input-field">
+                        <input type="password" placeholder="Senha" class="password">
+                        <i class='bx bx-hide eye-img'><img class='eyeImg' src="./assets/img/olho.svg"></i>
+                    </div>
+
+
+                    <div class="field button-field">
+                        <button>Cadastre-se</button>
+                    </div>
+
+                    
+                </form>    
+                <div class="form-link">
+                    <Span>Já possui uma conta? <a href="#" class="link login-link">Login</a></Span>
+                </div>     
+            </div>
+
+            <div class="line"></div>
+
+            <div class="media-options">
+                <a href="https://pt-br.facebook.com/" class="field facebook">
+                    <i class='bx bxl-facebook-circle facebook-icon'><img class='facebook-img' src='./assets/img/facebookwhite.png'></i>
+                    <span>Logue pelo Facebbook</span>
+                </a>
+            </div>
+
+            <div class="media-options">
+                <a href="https://accounts.google.com/ServiceLogin/identifier?service=mail&passive=1209600&osid=1&continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F%3Ftab%3Drm%26ogbl&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F%3Ftab%3Drm%26ogbl&emr=1&ifkv=AeAAQh7B-Q8DtnTxW0wgZO1TQKSwb5qyFGNBp2xHeYl-cvCQUtboubVp9hl7b2JGnWg_GAaR_x8s4A&flowName=GlifWebSignIn&flowEntry=ServiceLogin" class="field google">
+                    <img src="./assets/img/google-logo-24 (1).png" alt="" class="google-img">
+                    <span>Logue pelo Google</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const forms= document.querySelector(".forms"),
+        pwShowHide = document.querySelectorAll(".eyeImg"),
+        links = document.querySelectorAll(".link");
+          
+        pwShowHide.forEach(eye_img => {
+            eye_img.addEventListener("click", ()=> {
+                let pwFields = eye_img.parentElement.parentElement.querySelectorAll(".password");
+                
+                pwFields.forEach(password => {
+                    if(password.type === "password"){
+                        password.type = "text";
+                        eye_img.classList.replace("bx-hide",  "bx-show");
+                        return;
+                    }
+                    password.type = "password";
+                    eye_img.classList.replace("bx-show",  "bx-hide");
+                })
+            })
+        })
+
+        links.forEach(link =>{
+            link.addEventListener("click", e => {
+                e.preventDefault(); // preventing form submit
+                forms.classList.toggle("show-signup");
+            })
+        })
+    </script>
+      
+
 </body>
 
 </html>
