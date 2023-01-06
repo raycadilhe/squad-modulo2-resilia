@@ -26,13 +26,15 @@
 </head>
 
 <body>
+    
 
     <title>Login</title>
     <div class="main">
+       
         <div class="container">
+            <h6> <a box-icon name='Oi' color='#ffffff' href="./index.html"></box-icon> <img src="./assets/img/bx-home.svg"> </a></h6> 
             <div id="square">
                 <div class="front">
-                    <h5> Casinha </h5>
                     <h1>Login</h1>
                     <form action="#" method="post">
                         <input required type="email" name="email" id="email" placeholder="E-mail"/>
@@ -41,20 +43,16 @@
                     </form>
                 </div>
                 <div class="right">
-                    <h5> Casinha </h5>
                     <h1>Cadastre-se</h1>
                     <form action="#" method="post">
                         <input required type="email" name="email" id="email" placeholder="E-mail"/>
                         <input required type="text" name="nomeCompleto" id="nomeCompleto" placeholder="Nome Completo"/>
-                        <input required type="number" name="registroGeral" id="registroGeral" placeholder="RG"/>
                         <input required type="text" name="endereco" id="endereco" placeholder="Endereço"/>
-                        <input required type="number" name="cep" id="cep" placeholder="CEP"/>
                         <input required type="password" name="password" id="password" placeholder="Senha"/>
                         <button type="submit"> Enviar </button>
                     </form>
                 </div>
                 <div class="left">
-                    <h5> Casinha </h5>
                     <h1>Recupere sua conta</h1>
                     <form action="#" method="post">
                         <input required type="email" name="email" id="email" placeholder="E-mail"/>
@@ -72,7 +70,7 @@
         </div>
     </div>
     
-    <!-- JavaScript --> <script src="./assets/js/javalogin.js">
+    <!-- JavaScript --> <script>
         const square = document.getElementById("square");
 const frontSide = document.getElementById("frontSide");
 const leftSide = document.getElementById("leftSide");
