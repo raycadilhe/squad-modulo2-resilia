@@ -38,6 +38,7 @@ color:var(--button-color);
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
     padding: 0 2rem;
     background-color: var(--nav-bg-color);
     color: var(----font-color);
