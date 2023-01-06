@@ -118,6 +118,7 @@ nav ul {
 
 .footer {
     display: flex;
+border-bottom: 0px;
     position: absolute;
     width: 100%;
     align-items: center;
@@ -200,13 +201,26 @@ nav ul {
     }
 
     .footer {
-        display: block;
+        display: flex;
         position: absolute;
         width:100%;
         align-items: center;
-        font-size: 1.1em;
+        font-size: 0.8em;
+        gap: 0px;
     }
 
+    .footer ul {
+        display: block;
+        columns: 1;
+        width:50%;
+    }
+
+    #termos {
+        display: block;
+        columns:1;
+        align-items: baseline;
+        justify-content: center;
+    }
 
     .input {
         display: block;
@@ -228,11 +242,7 @@ nav ul {
         font-size: 1em;
     }
 
-    #termos {
-        display: flex;
-        align-items: baseline;
-        justify-content: center;
-    }
+
 
     #icones {
         display: flex;
