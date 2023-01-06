@@ -21,139 +21,90 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
+    
 
-    <title>Login</title>
 </head>
 
-<body style="background-color: brown;">
-    <section class="container forms">
-        <div class="form login">
-            <div class="form-content">
-                <header> Login </header>
+<body>
 
-                <form action="#">
-                    <div class="field input-field">
-                        <input type="email" placeholder="E-mail" class="input">
-                    </div>
-
-                    <div class="field input-field">
-                        <input type="password" placeholder="Senha" class="password">
-                        <i class='bx bx-hide eye-img'><img class='eyeImg' src="./assets/img/olho.svg"></i>
-                    </div>
-
-                    <div class="form-link">
-                        <a href="#" class="forgot-pass">Esqueci a senha</a>
-                    </div>
-
-
-                    <div class="field button-field">
-                        <button>Login</button>
-                    </div>
-
-                    
-                </form>    
-                <div class="form-link">
-                    <Span>Não possui uma conta? <a href="#" class="link signup-link">Criar conta</a></Span>
-                </div>     
+    <title>Login</title>
+    <div class="main">
+        <div class="container">
+            <div id="square">
+                <div class="front">
+                    <h5> Casinha </h5>
+                    <h1>Login</h1>
+                    <form action="#" method="post">
+                        <input required type="email" name="email" id="email" placeholder="E-mail"/>
+                        <input required type="password" name="password" id="password" placeholder="Senha"/>
+                        <button type="submit"> Enviar </button>
+                    </form>
+                </div>
+                <div class="right">
+                    <h5> Casinha </h5>
+                    <h1>Cadastre-se</h1>
+                    <form action="#" method="post">
+                        <input required type="email" name="email" id="email" placeholder="E-mail"/>
+                        <input required type="text" name="nomeCompleto" id="nomeCompleto" placeholder="Nome Completo"/>
+                        <input required type="number" name="registroGeral" id="registroGeral" placeholder="RG"/>
+                        <input required type="text" name="endereco" id="endereco" placeholder="Endereço"/>
+                        <input required type="number" name="cep" id="cep" placeholder="CEP"/>
+                        <input required type="password" name="password" id="password" placeholder="Senha"/>
+                        <button type="submit"> Enviar </button>
+                    </form>
+                </div>
+                <div class="left">
+                    <h5> Casinha </h5>
+                    <h1>Recupere sua conta</h1>
+                    <form action="#" method="post">
+                        <input required type="email" name="email" id="email" placeholder="E-mail"/>
+                        <button type="submit"> Enviar </button>
+                    </form>
+                </div>
             </div>
-
-            <div class="line"></div>
-
-            <div class="media-options">
-                <a href="https://pt-br.facebook.com/" class="field facebook">
-                    <i class='bx bxl-facebook-circle facebook-icon'><img class='facebook-img' src='./assets/img/facebookwhite.png'></i>
-                    <span>Logue pelo Facebbook</span>
-                </a>
+            <div class="actions">
+                <button id="leftSide" type="button">Esqueceu a senha</button>
+                <button id="frontSide" type="button">Login</button>
+                <button id="rightSide" type="button">Criar conta</button>
             </div>
-
-            <div class="media-options">
-                <a href="https://accounts.google.com/ServiceLogin/identifier?service=mail&passive=1209600&osid=1&continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F%3Ftab%3Drm%26ogbl&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F%3Ftab%3Drm%26ogbl&emr=1&ifkv=AeAAQh7B-Q8DtnTxW0wgZO1TQKSwb5qyFGNBp2xHeYl-cvCQUtboubVp9hl7b2JGnWg_GAaR_x8s4A&flowName=GlifWebSignIn&flowEntry=ServiceLogin" class="field google">
-                    <img src="./assets/img/google-logo-24 (1).png" alt="" class="google-img">
-                    <span>Logue pelo Google</span>
-                </a>
-            </div>
-        </div>
-
-        <!--pt2-->
-
-        <div class="form signup">
-            <div class="form-content">
-                <header>Cadastre-se</header>
-
-                <form action="#">
-                    <div class="field input-field">
-                        <input type="email" placeholder="E-mail" class="input">
-                    </div>
-
-                    <div class="field input-field">
-                        <input type="password" placeholder="Senha" class="password">
                 
-                    </div>
-                    <div class="field input-field">
-                        <input type="password" placeholder="Senha" class="password">
-                        <i class='bx bx-hide eye-img'><img class='eyeImg' src="./assets/img/olho.svg"></i>
-                    </div>
-
-
-                    <div class="field button-field">
-                        <button>Cadastre-se</button>
-                    </div>
-
-                    
-                </form>    
-                <div class="form-link">
-                    <Span>Já possui uma conta? <a href="#" class="link login-link">Login</a></Span>
-                </div>     
-            </div>
-
-            <div class="line"></div>
-
-            <div class="media-options">
-                <a href="https://pt-br.facebook.com/" class="field facebook">
-                    <i class='bx bxl-facebook-circle facebook-icon'><img class='facebook-img' src='./assets/img/facebookwhite.png'></i>
-                    <span>Logue pelo Facebbook</span>
-                </a>
-            </div>
-
-            <div class="media-options">
-                <a href="https://accounts.google.com/ServiceLogin/identifier?service=mail&passive=1209600&osid=1&continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F%3Ftab%3Drm%26ogbl&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F%3Ftab%3Drm%26ogbl&emr=1&ifkv=AeAAQh7B-Q8DtnTxW0wgZO1TQKSwb5qyFGNBp2xHeYl-cvCQUtboubVp9hl7b2JGnWg_GAaR_x8s4A&flowName=GlifWebSignIn&flowEntry=ServiceLogin" class="field google">
-                    <img src="./assets/img/google-logo-24 (1).png" alt="" class="google-img">
-                    <span>Logue pelo Google</span>
-                </a>
-            </div>
+            
         </div>
-    </section>
+    </div>
+    
+    <!-- JavaScript --> <script src="./assets/js/javalogin.js">
+        const square = document.getElementById("square");
+const frontSide = document.getElementById("frontSide");
+const leftSide = document.getElementById("leftSide");
+const rightSide = document.getElementById("rightSide");
 
-    <script>
-        const forms= document.querySelector(".forms"),
-        pwShowHide = document.querySelectorAll(".eyeImg"),
-        links = document.querySelectorAll(".link");
-          
-        pwShowHide.forEach(eye_img => {
-            eye_img.addEventListener("click", ()=> {
-                let pwFields = eye_img.parentElement.parentElement.querySelectorAll(".password");
-                
-                pwFields.forEach(password => {
-                    if(password.type === "password"){
-                        password.type = "text";
-                        eye_img.classList.replace("bx-hide",  "bx-show");
-                        return;
-                    }
-                    password.type = "password";
-                    eye_img.classList.replace("bx-show",  "bx-hide");
-                })
-            })
-        })
+frontSide.addEventListener('click', () => {
+    frontSide.style.display = "none";
+    leftSide.style.display = "block";
+    rightSide.style.display = "block";
+    square.style.transform = "rotate3d(0,0,0,90deg)";
+    document.title = "Login";
+});
 
-        links.forEach(link =>{
-            link.addEventListener("click", e => {
-                e.preventDefault(); // preventing form submit
-                forms.classList.toggle("show-signup");
-            })
-        })
-    </script>
-      
+rightSide.addEventListener('click', () => {
+    frontSide.style.display = "block";
+    leftSide.style.display = "none";
+    rightSide.style.display = "block";
+    square.style.transform = "rotate3d(0,-1,0,90deg)";
+    document.title = "Cadastro";
+});
 
+leftSide.addEventListener('click', () => {
+    frontSide.style.display = "block";
+    leftSide.style.display = "block";
+    rightSide.style.display = "none";
+    square.style.transform = "rotate3d(0,1,0,90deg)";
+    document.title = "Recuperação de Conta";
+});
+
+
+
+    </script> <!--JavaScript -->
 </body>
 
 </html>
