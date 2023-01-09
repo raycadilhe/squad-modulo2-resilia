@@ -194,17 +194,63 @@
 }
     
 
-@media screen and (max-width: 500px) {
-        .caixaUm {
-            width: 100%;
+.footer {
+    display: flex;
+    position: absolute;
+    width:100%;
+    align-items: center;
+    font-size: 0.8em;
+    gap: 0px;
+}
+
+.footer ul {
+    display: block;
+    columns: 1;
+    width:50%;
+}
+
+@media screen and (max-width: 700px) {
+        .box {
+            display:block;
+            width:fit-content;
+            height:fit-content;
+            align-items: center;
         }
+
+        
+        .caixaUm {
+            width:fit-content;
+            height:fit-content;
+            align-items: center;
+            }
+        
         
         .caixaDois {
-            width: 100%;
-        }
+            width:fit-content;
+            height:fit-content;
+            align-items: center;
+            }
+        
         
         .caixaTres {
-            width: 100%;
-        }
+            width:fit-content;
+            height:fit-content;
+            align-items: center;
+            } 
    
+
+            .footer {
+                display: flex;
+                position: absolute;
+                width:100%;
+                align-items: center;
+                font-size: 0.8em;
+                gap: 0px;
+            }
+        
+            .footer ul {
+                display: block;
+                columns: 1;
+                width:50%;  
+            }
 }
