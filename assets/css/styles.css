@@ -212,7 +212,7 @@ border-bottom: 0px;
         position: absolute;
         width:100%;
         align-items: center;
-        font-size: 0.8em;
+        font-size: 0.5em;
         gap: 0px;
     }
 
@@ -220,6 +220,7 @@ border-bottom: 0px;
         display: block;
         columns: 1;
         width:50%;
+        font-size:1.5em;
     }
 
     #termos {
