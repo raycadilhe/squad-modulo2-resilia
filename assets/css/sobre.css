@@ -87,7 +87,11 @@ nav ul {
 
 #button:hover {
     color: var(--nav-bg-color);
+    transition: 0.3s;
+    
 }
+
+
 
 /*CONFIGURAÇÕES DA PAGINA PRINCIPAL(MAIN)*/
 main {
@@ -150,9 +154,9 @@ h6 {
     justify-content: center;
     gap: 3em;
     padding: 0 2rem;
-    background-color: #343236;
+    background-color: var(--footer-bg-color);
     height: 20vh;
-    color: #dfdfdf;
+    color: var(--light-font-color);
     font-size: 1.5em;
 }
 
@@ -182,18 +186,18 @@ h6 {
     background-color: #57535b;
     padding: 0.9em;
     font-size: 1.5em;
-    color: #dfdfdf;
+    color: var(--light-font-color);
 }
 
 #email {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    background-color: #cdd5eb;
+    background-color: var(--alt-light-color);
     padding: 6px;
     font-size: 1.2rem;
     border-radius: 15px;
-    border: 1px solid #cdd5eb;
+    border: 1px solid var(--alt-light-color);
 }
 
 #icones {
@@ -208,7 +212,6 @@ h6 {
     color: #F4C949;
     font-weight: 700;
 }
-
 
 /* MEDIA QUERY */
 
