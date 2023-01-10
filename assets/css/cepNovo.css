@@ -1,0 +1,1134 @@
+* {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+body {
+    background-color: #391e5d;
+}
+
+
+
+
+/*Titulo principal cadastro*/
+
+.formulario h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* campos de nome e email*/
+
+
+.primeira {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.primeira input {
+    width: 500px;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-color: yellow;
+    background-color: transparent;
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+.segunda {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.segunda input {
+    width: 500px;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-color: yellow;
+    background-color: transparent;
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+/*campos de senha, confrm sena e rg*/
+
+.senhas {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.senhaUm {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.senhaUm input {
+    width: 200px;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-color: yellow;
+    background-color: transparent;
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+.senhaDois {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.senhaDois input {
+    width: 200px;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-color: yellow;
+    background-color: transparent;
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.dadosPessoais {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+.cpf {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cpf input {
+    width: 200px;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-color: yellow;
+    background-color: transparent;
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+.rg {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rg input {
+    width: 200px;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-color: yellow;
+    background-color: transparent;
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+.nascimento {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nascimento input {
+    width: 200px;
+    padding-left: 35px;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-color: yellow;
+    background-color: transparent;
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+.local {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.sexta {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sexta input {
+    width: 200px;
+    padding-left: 35px;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-color: yellow;
+    background-color: transparent;
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.setima {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.setima input {
+    width: 200px;
+    padding-left: 35px;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-color: yellow;
+    background-color: transparent;
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+
+.city {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+.oitava {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.oitava input {
+    width: 200px;
+    padding-left: 35px;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-color: yellow;
+    background-color: transparent;
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.decima {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.decima input {
+    width: 200px;
+    padding-left: 35px;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-color: yellow;
+    background-color: transparent;
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.decimaUm {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.decimaUm input {
+    width: 200px;
+    padding-left: 35px;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-color: yellow;
+    background-color: transparent;
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+.complemento {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+.decimaDois {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.decimaDois input {
+    width: 200px;
+    padding-left: 35px;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-color: yellow;
+    background-color: transparent;
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+
+.setima {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.setima input {
+    width: 200px;
+    padding-left: 35px;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-color: yellow;
+    background-color: transparent;
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+
+
+
+
+
+.olho {
+    cursor: pointer;
+    left: 160px;
+    width: 30px;
+}
+
+.olhoDois {
+    cursor: pointer;
+    left: 160px;
+    width: 30px;
+}
+
+#finalCadastro {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+/*botao finalizar cadastro*/
+
+
+#finalCadastro button {
+    display: flex;
+    justify-content: center;
+    background-color: #F4C949;
+    margin-top: 20px;
+    width: 300px;
+    height: 40px;
+    color: #391E5D;
+    border-radius: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+
+@media (max-width: 360px) {
+
+    * {
+        font-size: 10px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .formulario {
+        width: 360px;
+        text-align: center;
+    }
+
+    /*Titulo principal cadastro*/
+
+    .formulario h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+
+
+    /* campos de nome e email*/
+
+
+    .primeira {
+        width: 360px;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .primeira input {
+        width: 50px;
+        border-top: transparent;
+        border-left: transparent;
+        border-right: transparent;
+        border-color: yellow;
+        background-color: transparent;
+        color: #ffffff;
+        justify-content: center;
+    }
+
+
+
+    .segunda {
+        width: 360px;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .segunda input {
+        width: 50px;
+        border-top: transparent;
+        border-left: transparent;
+        border-right: transparent;
+        border-color: yellow;
+        background-color: transparent;
+        color: #ffffff;
+    }
+
+    /*campos de senha, confrm sena e rg*/
+
+    .senhas {
+        display: block;
+        justify-content: center;
+        font-size: 13px;
+    }
+
+    .senhaUm {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .senhaUm input {
+        width: 50px;
+        border-top: transparent;
+        border-left: transparent;
+        border-right: transparent;
+        border-color: yellow;
+        background-color: transparent;
+        color: #ffffff;
+    }
+
+
+    .senhaDois {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .senhaDois input {
+        width: 50px;
+        border-top: transparent;
+        border-left: transparent;
+        border-right: transparent;
+        border-color: yellow;
+        background-color: transparent;
+        color: #ffffff;
+    }
+
+    .dadosPessoais {
+        display: block;
+        justify-content: center;
+        gap: 50px;
+    }
+
+
+    .cpf {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cpf input {
+        width: 50px;
+        border-top: transparent;
+        border-left: transparent;
+        border-right: transparent;
+        border-color: yellow;
+        background-color: transparent;
+        color: #ffffff;
+    }
+
+
+    .rg {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rg input {
+        width: 50px;
+        border-top: transparent;
+        border-left: transparent;
+        border-right: transparent;
+        border-color: yellow;
+        background-color: transparent;
+        color: #ffffff;
+    }
+
+
+    .nascimento {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nascimento input {
+        width: 50px;
+        padding-left: 35px;
+        border-top: transparent;
+        border-left: transparent;
+        border-right: transparent;
+        border-color: yellow;
+        background-color: transparent;
+        color: #ffffff;
+    }
+
+
+    .local {
+        display: block;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .sexta {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sexta input {
+        width: 50px;
+        padding-left: 35px;
+        border-top: transparent;
+        border-left: transparent;
+        border-right: transparent;
+        border-color: yellow;
+        background-color: transparent;
+        color: #ffffff;
+    }
+
+    .setima {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .setima input {
+        width: 50px;
+        padding-left: 35px;
+        border-top: transparent;
+        border-left: transparent;
+        border-right: transparent;
+        border-color: yellow;
+        background-color: transparent;
+        color: #ffffff;
+    }
+
+
+
+    .city {
+        display: block;
+        justify-content: center;
+        gap: 50px;
+    }
+
+
+    .oitava {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .oitava input {
+        width: 50px;
+        padding-left: 35px;
+        border-top: transparent;
+        border-left: transparent;
+        border-right: transparent;
+        border-color: yellow;
+        background-color: transparent;
+        color: #ffffff;
+    }
+
+    .decima {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .decima input {
+        width: 50px;
+        padding-left: 35px;
+        border-top: transparent;
+        border-left: transparent;
+        border-right: transparent;
+        border-color: yellow;
+        background-color: transparent;
+        color: #ffffff;
+    }
+
+    .decimaUm {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .decimaUm input {
+        width: 50px;
+        padding-left: 35px;
+        border-top: transparent;
+        border-left: transparent;
+        border-right: transparent;
+        border-color: yellow;
+        background-color: transparent;
+        color: #ffffff;
+    }
+
+
+    .complemento {
+        display: block;
+        justify-content: center;
+        gap: 50px;
+    }
+
+
+    .decimaDois {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .decimaDois input {
+        width: 50px;
+        padding-left: 35px;
+        border-top: transparent;
+        border-left: transparent;
+        border-right: transparent;
+        border-color: yellow;
+        background-color: transparent;
+        color: #ffffff;
+    }
+
+
+
+    .setima {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .setima input {
+        width: 50px;
+        padding-left: 35px;
+        border-top: transparent;
+        border-left: transparent;
+        border-right: transparent;
+        border-color: yellow;
+        background-color: transparent;
+        color: #ffffff;
+    }
+
+
+
+
+
+
+
+    .olho {
+        cursor: pointer;
+        left: 160px;
+        width: 30px;
+    }
+
+    .olhoDois {
+        cursor: pointer;
+        left: 160px;
+        width: 30px;
+    }
+
+    #finalCadastro {
+        display: flex;
+        justify-content: center;
+
+    }
+
+
+    /*botao finalizar cadastro*/
+
+
+    #finalCadastro button {
+        display: flex;
+        justify-content: center;
+        background-color: #F4C949;
+        margin-top: 20px;
+        width: 50px;
+        height: 40px;
+        color: #391E5D;
+        border-radius: 50px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+
+    }
+}
+
+
+
+
+
+
+@media (max-width: 700px) {
+
+    * {
+        font-size: 10px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .formulario {
+        width: 700px;
+        text-align: center;
+    }
+
+    /*Titulo principal cadastro*/
+
+    .formulario h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+
+
+    /* campos de nome e email*/
+
+
+    .primeira {
+        width: 700px;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .primeira input {
+        width: 300px;
+        border-top: transparent;
+        border-left: transparent;
+        border-right: transparent;
+        border-color: yellow;
+        background-color: transparent;
+        color: #ffffff;
+        justify-content: center;
+    }
+
+
+
+    .segunda {
+        width: 700px;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .segunda input {
+        width: 300px;
+        border-top: transparent;
+        border-left: transparent;
+        border-right: transparent;
+        border-color: yellow;
+        background-color: transparent;
+        color: #ffffff;
+    }
+
+    /*campos de senha, confrm sena e rg*/
+
+    .senhas {
+        display: block;
+        justify-content: center;
+        font-size: 13px;
+    }
+
+    .senhaUm {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .senhaUm input {
+        width: 100px;
+        border-top: transparent;
+        border-left: transparent;
+        border-right: transparent;
+        border-color: yellow;
+        background-color: transparent;
+        color: #ffffff;
+    }
+
+
+    .senhaDois {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .senhaDois input {
+        width: 100px;
+        border-top: transparent;
+        border-left: transparent;
+        border-right: transparent;
+        border-color: yellow;
+        background-color: transparent;
+        color: #ffffff;
+    }
+
+    .dadosPessoais {
+        display: block;
+        justify-content: center;
+        gap: 50px;
+    }
+
+
+    .cpf {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cpf input {
+        width: 150px;
+        border-top: transparent;
+        border-left: transparent;
+        border-right: transparent;
+        border-color: yellow;
+        background-color: transparent;
+        color: #ffffff;
+    }
+
+
+    .rg {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rg input {
+        width: 150px;
+        border-top: transparent;
+        border-left: transparent;
+        border-right: transparent;
+        border-color: yellow;
+        background-color: transparent;
+        color: #ffffff;
+    }
+
+
+    .nascimento {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nascimento input {
+        width: 100px;
+        padding-left: 35px;
+        border-top: transparent;
+        border-left: transparent;
+        border-right: transparent;
+        border-color: yellow;
+        background-color: transparent;
+        color: #ffffff;
+    }
+
+
+    .local {
+        display: block;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .sexta {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sexta input {
+        width: 150px;
+        padding-left: 35px;
+        border-top: transparent;
+        border-left: transparent;
+        border-right: transparent;
+        border-color: yellow;
+        background-color: transparent;
+        color: #ffffff;
+    }
+
+    .setima {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .setima input {
+        width: 150px;
+        padding-left: 35px;
+        border-top: transparent;
+        border-left: transparent;
+        border-right: transparent;
+        border-color: yellow;
+        background-color: transparent;
+        color: #ffffff;
+    }
+
+
+
+    .city {
+        display: block;
+        justify-content: center;
+        gap: 50px;
+    }
+
+
+    .oitava {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .oitava input {
+        width: 150px;
+        padding-left: 35px;
+        border-top: transparent;
+        border-left: transparent;
+        border-right: transparent;
+        border-color: yellow;
+        background-color: transparent;
+        color: #ffffff;
+    }
+
+    .decima {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .decima input {
+        width: 150px;
+        padding-left: 35px;
+        border-top: transparent;
+        border-left: transparent;
+        border-right: transparent;
+        border-color: yellow;
+        background-color: transparent;
+        color: #ffffff;
+    }
+
+    .decimaUm {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .decimaUm input {
+        width: 150px;
+        padding-left: 35px;
+        border-top: transparent;
+        border-left: transparent;
+        border-right: transparent;
+        border-color: yellow;
+        background-color: transparent;
+        color: #ffffff;
+    }
+
+
+    .complemento {
+        display: block;
+        justify-content: center;
+        gap: 50px;
+    }
+
+
+    .decimaDois {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .decimaDois input {
+        width: 150px;
+        padding-left: 35px;
+        border-top: transparent;
+        border-left: transparent;
+        border-right: transparent;
+        border-color: yellow;
+        background-color: transparent;
+        color: #ffffff;
+    }
+
+
+
+    .setima {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .setima input {
+        width: 150px;
+        padding-left: 35px;
+        border-top: transparent;
+        border-left: transparent;
+        border-right: transparent;
+        border-color: yellow;
+        background-color: transparent;
+        color: #ffffff;
+    }
+
+
+
+
+
+
+
+    .olho {
+        cursor: pointer;
+        left: 160px;
+        width: 30px;
+    }
+
+    .olhoDois {
+        cursor: pointer;
+        left: 160px;
+        width: 30px;
+    }
+
+    #finalCadastro {
+        display: flex;
+        justify-content: center;
+        width: 700px;
+
+    }
+
+
+    /*botao finalizar cadastro*/
+
+
+    #finalCadastro button {
+        display: flex;
+        justify-content: center;
+        background-color: #F4C949;
+        margin-top: 20px;
+        width: 100px;
+        height: 20px;
+        color: #391E5D;
+        border-radius: 10px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 10px;
+        text-align: center;
+
+    }
+
+
+}
+
+
