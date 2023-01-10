@@ -1,3 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
@@ -38,7 +49,6 @@ color:var(--button-color);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: fixed;
     padding: 0 2rem;
     background-color: var(--nav-bg-color);
     color: var(----font-color);
@@ -89,38 +99,13 @@ nav ul {
 #button:hover{
     color:var(--nav-bg-color);
 }
-.banner {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    height: 70vh;
-    background-color: var(--body-bg-color);
-    padding: 0px;
-}
 
 
-.banner img {
-    max-width: 500px;
-    max-height: 550px;
-    width: auto;
-    height: auto;
-}
 
-
-.banner2 {
-
-    display: flex;
-    align-items: center;
-    padding-top:10em;
-    width: 70vh;
-    font-size: 18px;
-    color: var(--light-font-color);
-}
 
 
 .footer {
     display: flex;
-border-bottom: 0px;
     position: absolute;
     width: 100%;
     align-items: center;
@@ -181,9 +166,20 @@ border-bottom: 0px;
     gap: 2em;
 }
 
-#chamada {
-    color:#F4C949;
-    font-weight: 700;
+
+
+#textoFim {
+    color: #F4C949;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.gif {
+    text-align: center;
+   padding: 15px;
 }
 
 
@@ -191,44 +187,15 @@ border-bottom: 0px;
 
 @media (max-width:700px) {
 
-    .banner,
-    .banner2 {
-        display: block;
-        align-items: center;
-        width: fit-content;
-        height: fit-content;
-        font-size: 1.05em;
-
-    }
-
-    .banner img {
-        width: 60%;
-        display: block;
-        margin: auto;
-    }
 
     .footer {
-        display: flex;
-        position: absolute;
+        display: block;
+        position: fixed;
         width:100%;
         align-items: center;
-        font-size: 0.5em;
-        gap: 0px;
+        font-size: 1.1em;
     }
 
-    .footer ul {
-        display: block;
-        columns: 1;
-        width:50%;
-        font-size:1.5em;
-    }
-
-    #termos {
-        display: block;
-        columns:1;
-        align-items: baseline;
-        justify-content: center;
-    }
 
     .input {
         display: block;
@@ -250,7 +217,11 @@ border-bottom: 0px;
         font-size: 1em;
     }
 
-
+    #termos {
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+    }
 
     #icones {
         display: flex;
