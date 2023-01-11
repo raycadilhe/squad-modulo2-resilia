@@ -120,7 +120,7 @@ nav ul {
 
 .footer {
     display: flex;
-border-bottom: 0px;
+    border-bottom: 0px;
     position: absolute;
     width: 100%;
     align-items: center;
@@ -128,7 +128,7 @@ border-bottom: 0px;
     gap: 3em;
     padding: 0 2rem;
     background-color: var(--footer-bg-color);
-    height: 20vh;
+    height: 21.5vh;
     color: var(--light-font-color);
     font-size: 1.5em;
 }
@@ -198,6 +198,7 @@ border-bottom: 0px;
         width: fit-content;
         height: fit-content;
         font-size: 1.05em;
+        padding:25px;
 
     }
 
@@ -205,6 +206,8 @@ border-bottom: 0px;
         width: 60%;
         display: block;
         margin: auto;
+        padding-top:60px;
+        padding-bottom:20px;
     }
 
     .footer {
