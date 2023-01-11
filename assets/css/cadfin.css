@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+/* resetando as configurações da página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* configurações padrão para os elementos */
+:root {
+    --nav-bg-color: #f3f3f3;
+    --footer-bg-color: #343236;
+    --body-bg-color: #391e5d;
+    --dark-font-color: #0a0016;
+    --light-font-color: #dfdfdf;
+    --alt-light-color: #cdd5eb;
+    --button-color: #71cedab2;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: var(--body-bg-color);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: var(--button-color);
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    background-color: var(--nav-bg-color);
+    color: var(----font-color);
+    height: 4em;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav img {
+    width: 5em;
+    margin-left: 5px;
+}
+
+.navbar-toggler {
+    color: var(--body-bg-color);
+}
+
+#navbar-items {
+    background-color: #f3f3f3c7;
+    color: var(--dark-font-color);
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    gap: 3rem;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+
+
+#button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: var(--button-color);
+    padding: 6px;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    border: 1px solid var(--alt-light-color);
+}
+
+#button:hover {
+    color: var(--nav-bg-color);
+}
+
+
+
+
+
+.footer {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+    padding: 0 2rem;
+    background-color: var(--footer-bg-color);
+    height: 20vh;
+    color: var(--light-font-color);
+    font-size: 1.5em;
+}
+
+
+.footer ul {
+    display: inline-block;
+    padding-top: 1em;
+    columns: 2;
+    list-style: none;
+    gap: 5em;
+    align-items: center;
+    font-size: 1rem;
+}
+
+#termos {
+    display: inline-block;
+    columns: 1;
+}
+
+.input {
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    gap: 1em;
+    align-items: center;
+    background-color: #57535b;
+    padding: 0.9em;
+    font-size: 1.5em;
+    color: var(--light-font-color);
+}
+
+#email {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: var(--alt-light-color);
+    padding: 6px;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    border: 1px solid var(--alt-light-color);
+}
+
+#icones {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+
+
+#textoFim {
+    color: #F4C949;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.gif {
+    text-align: center;
+    padding: 15px;
+}
+
+
+/* MEDIA QUERY */
+
+@media (max-width:990px) {
+
+    #textoFim h1 {
+        color: #F4C949;
+        font-family: 'Raleway', sans-serif;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 30px;
+        width: 990px;
+    }
+
+
+    .gif img {
+        text-align: center;
+        width: 700px;
+    }
+}
+
+
+
+@media (max-width:700px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    #textoFim h1 {
+        color: #F4C949;
+        font-family: 'Raleway', sans-serif;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 25px;
+        width: 600px;
+    }
+
+
+    .gif img {
+        text-align: center;
+        width: 500px;
+    }
+}
+
+
+
+
+@media (max-width:360px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    #textoFim h1 {
+        color: #F4C949;
+        font-family: 'Raleway', sans-serif;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 20px;
+        width: 360px;
+    }
+
+
+    .gif img {
+        text-align: center;
+        width: 300px;
+    }
+}
