@@ -157,7 +157,7 @@ h6 {
     gap: 3em;
     padding: 0 2rem;
     background-color: var(--footer-bg-color);
-    height: 20vh;
+    height: 21.5vh;
     color: var(--light-font-color);
     font-size: 1.5em;
 }
@@ -181,7 +181,7 @@ h6 {
 .input {
     display: flex;
     position: relative;
-    width: 100%;
+    width: auto;
     justify-content: center;
     gap: 1em;
     align-items: center;
@@ -213,10 +213,11 @@ h6 {
 
 /* MEDIA QUERY */
 
-@media only screen and (max-width: 920px) {
-    .card {
-        margin-top: 50px;
+@media (max-width:900px) {
 
+    main {
+        padding: 0;
+        margin: 0;
     }
 
     .colabs,
@@ -225,5 +226,64 @@ h6 {
         align-items: center;
         padding: 0;
 
+    }
+
+    .card {
+        margin-top: 3em;
+    }
+
+    .footer {
+        display: flex;
+        position: absolute;
+        width: 100%;
+        align-items: center;
+        font-size: 0.5em;
+        gap: 0px;
+    }
+
+    .footer ul {
+        display: block;
+        columns: 1;
+        width: 50%;
+        font-size: 1.5em;
+    }
+
+    #termos {
+        display: block;
+        columns: 1;
+        align-items: baseline;
+        justify-content: center;
+    }
+
+    .input {
+        display: block;
+        text-align: center;
+        font-size: 1em;
+    }
+
+    #info {
+        display: block;
+        padding: 5px;
+        font-size: 1.2em;
+    }
+
+    #email,
+    #button {
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        font-size: 1em;
+    }
+
+
+
+    #icones {
+        display: flex;
+        justify-content: center;
+        gap: 1em;
+    }
+
+    nav img {
+        width: 4em;
     }
 }
