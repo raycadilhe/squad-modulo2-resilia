@@ -47,7 +47,7 @@ a:hover {
 }
 
 nav img {
-    width: 5em;
+    width: 4em;
     margin-left: 5px;
 }
 
@@ -88,7 +88,7 @@ nav ul {
 #button:hover {
     color: var(--nav-bg-color);
     transition: 0.3s;
-    
+
 }
 
 
@@ -115,7 +115,8 @@ section {
 }
 
 .card:hover {
-    box-shadow: 2px 0px 10px 2px #57535b;
+
+    box-shadow: 5px 5px 20px 10px rgba(0, 0, 0, 0.750);
     transition: 0.4s;
 }
 
@@ -142,6 +143,7 @@ h6 {
     background-color: #71cedab2;
     border-radius: 10px;
 }
+
 
 /*CONFIGURAÇÕES DO RODAPÉ(FOOTER)*/
 
@@ -208,10 +210,6 @@ h6 {
     gap: 2em;
 }
 
-#chamada {
-    color: #F4C949;
-    font-weight: 700;
-}
 
 /* MEDIA QUERY */
 
