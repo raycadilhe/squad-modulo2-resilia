@@ -36,7 +36,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    background-color: var(--footer-bg-color)
+    background-color: #ffff
 }
 
 #square {
@@ -81,14 +81,16 @@
 .actions button {
  border: 0;
  outline: none;
- font-size: 20px;
- min-height: 30px;
+ font-size: 15px;
+ min-height: 20px;
  border-radius: 4px;
  padding: 10px 20px;
  background-color: var(--button-color)
 }
 
 .container h1{
+
+    color: #ffff;
     font-size: 30px;
     margin-bottom: 20px;
 }
@@ -108,7 +110,7 @@ margin-bottom: 15px;
 .container form input {
     border: 0;
     font-size: 15px;
-    min-height: 20px;
+    min-height: 15px;
     padding: 10px 8px;
     border-radius: 4px;
     box-sizing: border-box;
