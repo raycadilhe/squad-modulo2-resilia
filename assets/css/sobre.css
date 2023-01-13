@@ -144,6 +144,17 @@ h6 {
     border-radius: 10px;
 }
 
+.card-text {
+    margin: 5px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    line-height: 22px;
+    font-style: italic;
+    
+}
+
 
 /*CONFIGURAÇÕES DO RODAPÉ(FOOTER)*/
 
